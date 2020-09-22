@@ -1,15 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
-import SampleView from './components/views/SampleView';
+import withBottomSheet from './components/withBottomSheet';
+import SampleView2 from './components/views/SampleView2';
+
+const SubView = withBottomSheet(SampleView2);
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-      <SampleView />
+      <SubView />
     </View>
   );
 }
@@ -18,7 +19,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });

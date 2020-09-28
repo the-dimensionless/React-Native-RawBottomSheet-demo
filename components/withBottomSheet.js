@@ -2,8 +2,6 @@ import React, { useRef } from 'react';
 import { View, ScrollView, StyleSheet, Dimensions, TouchableHighlight } from 'react-native';
 import RBSheet from "react-native-raw-bottom-sheet";
 
-import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scrollview';
-
 
 const { height } = Dimensions.get('window');
 
@@ -14,20 +12,16 @@ const withBottomSheet = (SheetViewComponent) => {
             <>
                 <RBSheet
                     ref={refRBSheet}
-                    height={height / 1.3}
-                    minClosingHeight={20}
+                    height={height / 1.7}
+                    minClosingHeight={0}
 
                     duration={250}
                     customStyles={customStyles}
                     closeOnDragDown={true}
                     dragFromTopOnly={true}
+                    keyboardAvoidingViewEnabled={false}
                 >
-                    <KeyboardAwareScrollView
-                        enableOnAndroid={true}
-                    >
-                        <SheetViewComponent />
-                    </KeyboardAwareScrollView>
-
+                    <SheetViewComponent />
                 </RBSheet>
 
                 <TouchableHighlight underlayColor="#DDDDDD" style={styles.slider} onPress={(e) => {

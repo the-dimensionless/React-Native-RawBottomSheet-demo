@@ -36,7 +36,7 @@ const SampleView3 = () => {
 const styles = StyleSheet.create({
     main: {
         margin: 20,
-        flexDirection: "row"
+        flexDirection: "column"
     },
     btn: {
         borderRadius: 24,
@@ -53,7 +53,9 @@ const styles = StyleSheet.create({
         borderRadius: 9
     },
     chosenContainer: {
-        margin: 15
+        margin: 15,
+        paddingTop: 40,
+        padding: 5
     }
 })
 

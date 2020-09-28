@@ -7,6 +7,10 @@ const SampleView2 = () => {
     const [input2, setInput2] = useState('');
     const [input3, setInput3] = useState('');
     const [input4, setInput4] = useState('');
+
+    const [input5, setInput5] = useState('');
+    const [input6, setInput6] = useState('');
+    const [input7, setInput7] = useState('');
     return (
         <View style={styles.container}>
             <Text style={styles.header}>Please enter the OTP</Text>
@@ -23,6 +27,15 @@ const SampleView2 = () => {
             </View>
             <View style={styles.inputContainer}>
                 <TextInput style={styles.input} value={input4} onChangeText={(e) => setInput4(e)} />
+            </View>
+            <View style={styles.inputContainer}>
+                <TextInput style={styles.input} value={input5} onChangeText={(e) => setInput5(e)} />
+            </View>
+            <View style={styles.inputContainer}>
+                <TextInput style={styles.input} value={input6} onChangeText={(e) => setInput6(e)} />
+            </View>
+            <View style={styles.inputContainer}>
+                <TextInput style={styles.input} value={input7} onChangeText={(e) => setInput7(e)} />
             </View>
         </View>
     );

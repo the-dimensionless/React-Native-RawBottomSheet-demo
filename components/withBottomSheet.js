@@ -5,14 +5,14 @@ import RBSheet from "react-native-raw-bottom-sheet";
 
 const { height } = Dimensions.get('window');
 
-const withBottomSheet = (SheetViewComponent) => {
+const withBottomSheet = (SheetViewComponent, percentage) => {
     const BottomSheetView = () => {
         const refRBSheet = useRef();
         return (
             <>
                 <RBSheet
                     ref={refRBSheet}
-                    height={height / 1.7}
+                    height={height / (100 / percentage)}
                     minClosingHeight={0}
 
                     duration={250}

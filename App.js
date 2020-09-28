@@ -6,7 +6,7 @@ import SampleView2 from './components/views/SampleView2';
 import SampleView3 from './components/views/SampleView3';
 
 // factor is the Height percentage we wish for our bottom sheet
-const factor = '70';
+const factor = '40';
 const SubView = withBottomSheet(SampleView2, factor);
 
 export default function App() {

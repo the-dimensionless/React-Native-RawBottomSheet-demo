@@ -30,7 +30,7 @@ Here's why:
 * A higher order component that wraps the views sent to it in the raw bottom sheet
 * Referenced an easy to use raw-bottom-sheet (https://www.npmjs.com/package/react-native-raw-bottom-sheet)
 
-<img alt="closing-view" src="./gifs/closing.gif" width="150" height="200" />
+<img alt="closing-view" src="./gifs/closing.gif" width="280" height="400" />
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.

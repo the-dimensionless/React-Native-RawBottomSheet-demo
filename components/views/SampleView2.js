@@ -18,7 +18,7 @@ const SampleView2 = () => {
             enableOnAndroid
         >
             <View style={styles.container}>
-                <Text style={styles.header}>Please enter the OTP</Text>
+                <Text style={styles.header}>Please enter the Names</Text>
                 <View style={styles.inputContainer}>
                     <TextInput style={styles.input} value={input} onChangeText={(e) => setInput(e)} />
                 </View>

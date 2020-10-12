@@ -13,7 +13,7 @@ export default function App() {
   return (
     <>
       <ScrollView contentContainerStyle={styles.container}>
-        <Text style={styles.heading}>CodePush Demo !</Text>
+        <Text style={styles.heading}>Raw Bottom Sheet Demo !</Text>
         <View style={styles.content}>
           <Text style={styles.paragraph}>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.

@@ -23,14 +23,14 @@
 
 A simple react native raw bottom sheet with keyboard aware scroll view.
 
-![bottom-sheet](./gifs/raw-bottom-sheet-demo.gif)
+<img alt="bottom-sheet" src="./gifs/raw-bottom-sheet-demo.gif" width="40" height="40" />
 
 Here's why:
 * Can be used in place of modals as a separate component
 * A higher order component that wraps the views sent to it in the raw bottom sheet
 * Referenced an easy to use raw-bottom-sheet (https://www.npmjs.com/package/react-native-raw-bottom-sheet)
 
-![closing-view](./gifs/closing.gif)
+<img alt="closing-view" src="./gifs/closing.gif" width="40" height="40" />
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.

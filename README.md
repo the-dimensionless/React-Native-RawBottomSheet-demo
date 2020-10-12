@@ -23,7 +23,7 @@
 
 A simple react native raw bottom sheet with keyboard aware scroll view.
 
-<img alt="bottom-sheet" src="./gifs/raw-bottom-sheet-demo.gif" width="80" height="120" />
+<img alt="bottom-sheet" src="./gifs/raw-bottom-sheet-demo.gif" width="150" height="200" />
 
 Here's why:
 * Can be used in place of modals as a separate component

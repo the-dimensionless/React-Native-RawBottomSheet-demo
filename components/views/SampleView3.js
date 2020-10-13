@@ -13,7 +13,7 @@ const SampleView3 = () => {
                 <Text style={styles.header}>Enter Email</Text>
                 <TextInput style={styles.input} value={input} onChangeText={(t) => setInput(t)}></TextInput>
                 <View style={styles.btn}>
-                    <Button title='Get OTP' />
+                    <Button title='Get OTP ' />
                 </View>
             </View>
         )
